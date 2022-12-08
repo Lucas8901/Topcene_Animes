@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Topcene Animes</title>
+</head>
+<body>
+ <!--HEADER-->
+ <section>
+  <div class="bannerVideo" id="slideShow">
+    <video src="./img/WhatsApp Video 2022-12-05 at 12.34.25 (1).mp4" autoplay muted loop class="active"></video>
+    <video src="./img/WhatsApp Video 2022-12-05 at 12.34.25 (2).mp4" autoplay muted loop></video>
+    <video src="./img/WhatsApp Video 2022-12-05 at 12.34.25 (3).mp4" autoplay muted loop></video>
+    <video src="./img/WhatsApp Video 2022-12-05 at 12.34.26.mp4" autoplay muted loop></video>
+  </div>
+  <div class="container">
+    <header id="navbar">
+      <div class="logo">
+        <img src="./img/japones.png" alt="">
+        <a href="#">TopCenas</a>
+      </div>
+        
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="content">
+      <div class="bannerText" id="slideShowText">
+          <div class="active">
+            <h2 style="color: #df0606;">ONE PIECE</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum facere temporibus quod consequatur vitae asperiores blanditiis</p>
+          </div>
+
+          <div>
+            <h2 style="color: #05e705;">DEMON <br> SLAYER</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum facere temporibus quod consequatur vitae asperiores blanditiis</p>
+          </div>
+
+          <div>
+            <h2 style="color: #fcfc30;">NANATSU <br> NO TAIZAI</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum facere temporibus quod consequatur vitae asperiores blanditiis</p>
+          </div>
+
+
+          <div>
+            <h2 style="color: #c78800;">MY HERO <br> ACADEMIA</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum facere temporibus quod consequatur vitae asperiores blanditiis</p>
+          </div>
+      </div>
+    </div>
+    <ul class="sci">
+        <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
+        <li><a href="#"><img src="./img/instagram.png" alt=""></a></li>
+    </ul>
+
+    <ul class="controls">
+        <li onclick="prevSlide();prevSlideText();"><img src="./img/left.png" alt=""></li>
+        <li onclick="nextSlide();nextSlideText();"><img src="./img/right.png" alt=""></li>
+    </ul>
+  </div>
+ </section>
+  
+
+  <script src="app.js"></script>
+
+
+</body>
+</html>
